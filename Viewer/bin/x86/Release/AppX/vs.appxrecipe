@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HOLODEV013-PC</Machine>
+    <WindowsUser>balaji.v</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>412be276-a0bb-49f5-ad4c-94f03fb82b9e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=balaji.v</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>55A60F011A72B3C8E4F749D3255F640806F7194B4918AC2EF35AB88BF0969FD9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>412be276-a0bb-49f5-ad4c-94f03fb82b9e_1.0.13.0_x86__7rc8e4ktwb4k8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>412be276-a0bb-49f5-ad4c-94f03fb82b9e_7rc8e4ktwb4k8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>412be276-a0bb-49f5-ad4c-94f03fb82b9e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=balaji.v</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.13.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-09T09:45:55.618</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\Augmented Reality normal.png">
+      <PackagePath>Assets\Augmented Reality normal.png</PackagePath>
+      <Modified>2018-05-09T06:52:56.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\Augmented Reality selected.png">
+      <PackagePath>Assets\Augmented Reality selected.png</PackagePath>
+      <Modified>2018-05-09T06:52:45.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\Hand Drawing Normal.png">
+      <PackagePath>Assets\Hand Drawing Normal.png</PackagePath>
+      <Modified>2018-05-09T07:08:33.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\Hand Drawing selected.png">
+      <PackagePath>Assets\Hand Drawing selected.png</PackagePath>
+      <Modified>2018-05-09T07:08:24.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-04-18T03:47:39.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-18T03:47:39.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-18T03:47:39.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-18T03:47:39.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-18T03:47:39.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-18T03:47:39.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-18T03:47:39.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T16:21:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\MixedRemoteViewCompositor.dll">
+      <PackagePath>MixedRemoteViewCompositor.dll</PackagePath>
+      <Modified>2018-04-18T11:14:14.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\MixedRemoteViewCompositor.pdb">
+      <PackagePath>MixedRemoteViewCompositor.pdb</PackagePath>
+      <Modified>2018-04-18T11:14:14.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\MixedRemoteViewCompositor.winmd">
+      <PackagePath>MixedRemoteViewCompositor.winmd</PackagePath>
+      <Modified>2018-04-18T11:14:14.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-09T08:53:10.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Viewer.dll">
+      <PackagePath>Viewer.dll</PackagePath>
+      <Modified>2018-05-09T09:45:54.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Viewer.exe">
+      <PackagePath>Viewer.exe</PackagePath>
+      <Modified>2018-05-09T09:45:55.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\bin\x86\Release\ilc\Viewer.pdb">
+      <PackagePath>Viewer.pdb</PackagePath>
+      <Modified>2018-05-09T09:45:55.586</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x64\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x86\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="Viewer.Playback"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Viewer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="1024" Height="768">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1023" Height="768">
+        <Grid.RowDefinitions>
+            <!--RowDefinition Height="Auto" />
+            <RowDefinition Height="*" /-->
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical" Margin="10" Grid.Row="0" VerticalAlignment="Top" Height="70">
+            <StackPanel Orientation="Horizontal">
+                <Button x:ConnectionId='10' x:Name="bnConnect" Content="Connect To"                         Margin="0,0,5,0"/>
+                <Button x:ConnectionId='11' x:Name="bnClose" Content="Close"                       Margin="0,0,5,0"/>
+                <TextBox x:ConnectionId='12' x:Name="txAddress" PlaceholderText="localhost" Width="200" Margin="0,0,5,0" />
+                <TextBox x:ConnectionId='13' x:Name="txPort" Text="27772" InputScope="Number" MaxLength="5" Margin="0,0,5,0" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                <Button x:ConnectionId='7' x:Name="bnStart" Content="Start MRC Playback" Margin="0,0,5,0" IsEnabled="False"                       />
+                <Button x:ConnectionId='8' x:Name="bnStop" Content="Stop" Margin="0,0,5,0" IsEnabled="False"                      />
+                <TextBox x:ConnectionId='9' x:Name="DebugTxt" Text="TextBox" Margin="0,0,-792,0" Visibility="Visible"/>
+            </StackPanel>
+        </StackPanel>
+        <MediaElement x:ConnectionId='1' x:Name="videoPlayer" Stretch="Uniform" RealTimePlayback="True" AreTransportControlsEnabled="False" Margin="0,60,0,0" Height="560" Width="1000" HorizontalAlignment="Stretch">
+        </MediaElement>
+        <Canvas x:ConnectionId='2' x:Name="PointerCanvas" Background="Blue" HorizontalAlignment="Left" VerticalAlignment="Top" Width="595" Opacity="0.2" Height="390"                                                                                               Visibility="Visible" Margin="158,224,0,0"/>
+
+
+        <Canvas Height="170" Background="Gray" Canvas.Left="28" Canvas.Top="285" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0">
+            <Button x:ConnectionId='5' x:Name="AnnotationSelBtn"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="60" Height="50" Margin="20,20,0,0">
+                <Image Source="Assets/Hand Drawing Normal.png" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="60"/>
+            </Button>
+
+            <Button x:ConnectionId='6' x:Name="ToolSelBtn"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="60" Height="50" Margin="20,100,0,0">
+                <Image HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="59" Source="Assets/Augmented Reality normal.png">
+                    
+                </Image>
+
+            </Button>
+        </Canvas>
+
+        <TextBox x:ConnectionId='3' x:Name="WebServiceTxt" HorizontalAlignment="Left" Margin="214,90,0,0" Text="TextBox" VerticalAlignment="Top" Height="36" Width="704" Visibility="Visible"/>
+        <TextBox x:ConnectionId='4' x:Name="ToolIDTxt" HorizontalAlignment="Left" Margin="18,86,0,0" Text="1" VerticalAlignment="Top" Height="44" Width="166"/>
+    </Grid>
+</Page>
+

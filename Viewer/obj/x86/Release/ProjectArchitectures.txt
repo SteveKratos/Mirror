@@ -1,0 +1,1 @@
+C:\Balaji\MixedRealityCompanionKit\MixedRealityCompanionKit-masterOld\MixedRemoteViewCompositor\Samples\LowLatencyMRC\UWP_Old\Viewer\Viewer.csproj;x86
